@@ -1,0 +1,18 @@
+// BASIC SHELL COMMANDS
+// Arthmetic operation using shell scripting
+Experiment 9: Basic Shell Commands and Scripting
+#!/bin/bash
+echo Enter first number
+read a
+echo Enter second number
+read b
+C=$(( $a +$b ))
+echo Addition is $C
+D=$(( $a - $b))
+echo Subtraction is $D
+E=$(( $a * $b ))
+echo Multiplication is $E
+F=$(( $a % $b ))
+echo Remainder is $F
+G=$(( $a / $b ))
+echo Quotient is $G
